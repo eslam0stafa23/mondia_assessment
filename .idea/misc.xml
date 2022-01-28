@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/drawable/drawable_rounded_view_gray_bg.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/drawable/drawable_sheet_rounded_dialog_bg.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/drawable/drawable_sheet_very_rounded_dialog_bg.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/drawable/ic_baseline_music_note_24.xml" value="0.5481481481481482" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/drawable/ic_baseline_star_empty_24.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/drawable/popularity_stars.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/layout/activity_detailed_view.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/layout/activity_main.xml" value="0.5307291666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/layout/activity_search.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/layout/item_search_result.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/layout/layout_progress.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/layout/sheet_detailed_view.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Mondia/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.5395833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

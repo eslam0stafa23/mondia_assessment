@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- Base application theme. -->
+  <style name="Theme.Mondia" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">@color/primary_color</item>
+    <item name="colorPrimaryVariant">@color/primary_color</item>
+    <item name="colorOnPrimary">@color/white</item>
+    <!-- Secondary brand color. -->
+    <item name="colorSecondary">@color/primary_color</item>
+    <item name="colorSecondaryVariant">@color/white</item>
+    <item name="colorOnSecondary">@color/white</item>
+    <!-- Status bar color. -->
+    <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    <item name="bottomSheetDialogTheme">@style/BottomSheetTransparentTheme</item>
+  </style>
+
+  <style name="BottomSheetTransparentTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+    <item name="bottomSheetStyle">@style/bottomSheetTransparentStyle</item>
+    <item name="android:windowIsFloating">false</item>
+    <item name="android:navigationBarColor">@color/white</item>
+  </style>
+
+  <style name="bottomSheetTransparentStyle" parent="Widget.Design.BottomSheet.Modal">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="colorPrimary">@color/primary_color</item>
+    <item name="android:windowSoftInputMode">adjustResize</item>
+  </style>
+
+  <style name="popularityBarStyle" parent="Theme.AppCompat">
+    <item name="colorControlNormal">@color/light_gray</item>
+    <item name="colorControlActivated">@color/primary_color</item>
+  </style>
+</resources>

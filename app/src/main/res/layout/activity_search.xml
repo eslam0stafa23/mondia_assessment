@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/off_white"
+  android:orientation="vertical"
+  tools:context=".ui.activities.SearchActivity">
+
+  <com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="start"
+      android:minHeight="?actionBarSize"
+      android:padding="16dp"
+      android:text="@string/search_discover"
+      android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+      android:textColor="@color/primary_color"
+      android:textSize="22sp" />
+
+    <androidx.appcompat.widget.SearchView
+      android:id="@+id/searchView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:defaultQueryHint="Artist, Songs, Album"
+      app:queryHint="Artist, Songs, Album" />
+
+  </com.google.android.material.appbar.AppBarLayout>
+
+  <include
+    android:id="@+id/layout_progress"
+    layout="@layout/layout_progress" />
+
+  <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rvSearchItems"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:visibility="gone"
+    tools:itemCount="5"
+    tools:listitem="@layout/item_search_result"
+    tools:visibility="visible" />
+
+  <LinearLayout
+    android:id="@+id/layoutSearchHint"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:visibility="gone">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="@string/search_app"
+      android:textColor="@color/primary_color"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="@string/search_hint"
+      android:textSize="16sp" />
+
+
+  </LinearLayout>
+
+</LinearLayout>

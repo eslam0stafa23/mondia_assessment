@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">Mondia</string>
+  <string name="loading">Loading…</string>
+  <string name="connection_error">Connection Error!</string>
+  <string name="search_discover"><![CDATA[Search & Discover]]></string>
+  <string name="search_hint">Find artist, tracks, albums, and playlists.</string>
+  <string name="search_app">Search Mondia App</string>
+  <string name="popularity">Popularity</string>
+  <string name="genres">Genres</string>
+  <string name="total_times_listened">Total times Listened</string>
+  <string name="search_error">Sorry we couldn\'t find it!</string>
+</resources>
